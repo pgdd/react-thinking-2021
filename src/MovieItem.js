@@ -1,7 +1,7 @@
 import './MovieItem.scss'
-const MovieItem = ({ name = "Requiem for a dream"}) => {
+const MovieItem = ({ Title, Year, imdbID }) => {
     return(
-        <div className="MovieItem">{name}</div>
+        <div className="MovieItem">{Title} – {Year}</div>
     )
 
 }
